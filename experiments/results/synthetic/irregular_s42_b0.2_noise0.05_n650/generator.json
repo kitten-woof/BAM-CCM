@@ -1,0 +1,14 @@
+{
+  "process_error": "in dynamics; specified independent innovations",
+  "rows_dropped": 90,
+  "system": "irregular",
+  "n_requested": 650,
+  "n_returned": 560,
+  "seed": 42,
+  "measurement_noise": 0.05,
+  "nominal_coupling": 0.2,
+  "truth": "x->y",
+  "equations": "Coupled AR with 15% random time indices removed, unequal observation gaps",
+  "purpose": "Irregular index spacings are deliberately not corrected",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

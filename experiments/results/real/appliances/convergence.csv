@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+appliances,X_from_Y,CCM,19,0.4222749411706651
+appliances,X_from_Y,CCM,32,0.4857495807067146
+appliances,X_from_Y,CCM,45,0.4719643523659498
+appliances,X_from_Y,CCM,65,0.4740331319279481
+appliances,Y_from_X,CCM,19,0.3198244489626219
+appliances,Y_from_X,CCM,32,0.3035436727877358
+appliances,Y_from_X,CCM,45,0.23641175427382427
+appliances,Y_from_X,CCM,65,0.2097939762300118

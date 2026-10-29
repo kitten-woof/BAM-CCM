@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+archive_rossler,X_from_Y,CCM,19,0.8393787781708556
+archive_rossler,X_from_Y,CCM,32,0.8450680253089571
+archive_rossler,X_from_Y,CCM,45,0.8358362833823737
+archive_rossler,X_from_Y,CCM,65,0.8570354092175025
+archive_rossler,Y_from_X,CCM,19,0.8752097111868252
+archive_rossler,Y_from_X,CCM,32,0.86233662949792
+archive_rossler,Y_from_X,CCM,45,0.8505177402395129
+archive_rossler,Y_from_X,CCM,65,0.8658353248366296

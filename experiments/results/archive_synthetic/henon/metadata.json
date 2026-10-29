@@ -1,0 +1,46 @@
+{
+  "case": "archive_henon",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false
+  },
+  "data": {
+    "system": "henon",
+    "n": 1000,
+    "seed": 42,
+    "coupling": 0.05,
+    "noise": 0.1,
+    "burn": 500,
+    "dt": 0.01,
+    "stride": 10,
+    "noise_definition": "observed = clean + noise * clean_column_std * iid N(0,1)",
+    "ground_truth": "structural directed edges between subsystems; measurement noise added after simulation",
+    "edges": [
+      [
+        "x",
+        "y"
+      ]
+    ],
+    "source_file": "original/data/synthetic/henon_seed42.csv"
+  },
+  "n_total": 1000,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.2473515386068208,
+    0.3396359587130622
+  ],
+  "std": [
+    0.7247694009113316,
+    0.6544324632816346
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

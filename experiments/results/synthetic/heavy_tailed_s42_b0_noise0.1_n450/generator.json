@@ -1,0 +1,13 @@
+{
+  "process_error": "in dynamics; specified independent innovations",
+  "system": "heavy_tailed",
+  "n_requested": 450,
+  "n_returned": 450,
+  "seed": 42,
+  "measurement_noise": 0.1,
+  "nominal_coupling": 0.0,
+  "truth": "x->y",
+  "equations": "Coupled AR with Student-t(3) innovations normalized to var~1",
+  "purpose": "Outlier robustness",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

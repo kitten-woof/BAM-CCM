@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+common_driver_s101_b0.2_noise0.1_n600,X_from_Y,CCM,19,-0.03890073066712804
+common_driver_s101_b0.2_noise0.1_n600,X_from_Y,CCM,32,0.436068667014797
+common_driver_s101_b0.2_noise0.1_n600,X_from_Y,CCM,45,0.43441116584318806
+common_driver_s101_b0.2_noise0.1_n600,X_from_Y,CCM,65,0.3754265726616135
+common_driver_s101_b0.2_noise0.1_n600,Y_from_X,CCM,19,0.22266571857704542
+common_driver_s101_b0.2_noise0.1_n600,Y_from_X,CCM,32,0.5358690306653133
+common_driver_s101_b0.2_noise0.1_n600,Y_from_X,CCM,45,0.5565544056860283
+common_driver_s101_b0.2_noise0.1_n600,Y_from_X,CCM,65,0.5017607335813432

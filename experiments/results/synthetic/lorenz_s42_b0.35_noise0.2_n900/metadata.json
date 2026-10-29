@@ -1,0 +1,42 @@
+{
+  "case": "lorenz_s42_b0.35_noise0.2_n900",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "dt": 0.03,
+    "process_error": "none",
+    "system": "lorenz",
+    "n_requested": 900,
+    "n_returned": 900,
+    "seed": 42,
+    "measurement_noise": 0.2,
+    "nominal_coupling": 0.35,
+    "truth": "x<->y",
+    "equations": "dx=10(y-x); dy=x(28-z)-y; dz=xy-(8/3)z",
+    "purpose": "Coordinate coupling, not an independently actuated causal experiment",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -1.9752976646719835,
+    -1.9730842965745843
+  ],
+  "std": [
+    7.944411171331818,
+    8.98164010855337
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

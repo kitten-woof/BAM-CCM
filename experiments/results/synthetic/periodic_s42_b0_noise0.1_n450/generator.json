@@ -1,0 +1,13 @@
+{
+  "process_error": "independent measurement only",
+  "system": "periodic",
+  "n_requested": 450,
+  "n_returned": 450,
+  "seed": 42,
+  "measurement_noise": 0.1,
+  "nominal_coupling": 0.0,
+  "truth": "none",
+  "equations": "x=sin(2pi*t/30)+eps_x; y=sin(2pi*t/30+0.8)+eps_y, no causal edge",
+  "purpose": "Common periodic phase is not a causal link",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

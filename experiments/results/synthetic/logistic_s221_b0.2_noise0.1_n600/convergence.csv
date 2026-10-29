@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+logistic_s221_b0.2_noise0.1_n600,X_from_Y,CCM,19,0.6276510573439484
+logistic_s221_b0.2_noise0.1_n600,X_from_Y,CCM,32,0.5785272563766585
+logistic_s221_b0.2_noise0.1_n600,X_from_Y,CCM,45,0.7193309188772967
+logistic_s221_b0.2_noise0.1_n600,X_from_Y,CCM,65,0.801447199931955
+logistic_s221_b0.2_noise0.1_n600,Y_from_X,CCM,19,0.5824924258640627
+logistic_s221_b0.2_noise0.1_n600,Y_from_X,CCM,32,0.549667122011309
+logistic_s221_b0.2_noise0.1_n600,Y_from_X,CCM,45,0.6046384910258268
+logistic_s221_b0.2_noise0.1_n600,Y_from_X,CCM,65,0.6372485217112276

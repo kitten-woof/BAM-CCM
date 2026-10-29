@@ -1,0 +1,30 @@
+{
+  "case": "archive_benchmark_logistic_e64f5a39fc41",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false
+  },
+  "data": {
+    "source_file": "original/data/synthetic/benchmark_logistic_e64f5a39fc41_seed42.csv"
+  },
+  "n_total": 1000,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.6463340501310717,
+    0.6548585388655451
+  ],
+  "std": [
+    0.23988853169779867,
+    0.2176707483810904
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

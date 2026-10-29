@@ -1,0 +1,42 @@
+{
+  "case": "irregular_s42_b0.2_noise0.05_n650",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "rows_dropped": 90,
+    "system": "irregular",
+    "n_requested": 650,
+    "n_returned": 560,
+    "seed": 42,
+    "measurement_noise": 0.05,
+    "nominal_coupling": 0.2,
+    "truth": "x->y",
+    "equations": "Coupled AR with 15% random time indices removed, unequal observation gaps",
+    "purpose": "Irregular index spacings are deliberately not corrected",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 560,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -0.11080365644910219,
+    -0.08687208329790874
+  ],
+  "std": [
+    0.49585180839056064,
+    0.459516236175716
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

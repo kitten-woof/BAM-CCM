@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+regime_switch_s42_b0_noise0.1_n450,X_from_Y,CCM,19,-0.10199156973848109
+regime_switch_s42_b0_noise0.1_n450,X_from_Y,CCM,32,-0.02892063959640279
+regime_switch_s42_b0_noise0.1_n450,X_from_Y,CCM,45,-0.024193282381561154
+regime_switch_s42_b0_noise0.1_n450,X_from_Y,CCM,65,-0.01616116327478761
+regime_switch_s42_b0_noise0.1_n450,Y_from_X,CCM,19,-0.05031984004444139
+regime_switch_s42_b0_noise0.1_n450,Y_from_X,CCM,32,0.021851629878477906
+regime_switch_s42_b0_noise0.1_n450,Y_from_X,CCM,45,0.041186318472598606
+regime_switch_s42_b0_noise0.1_n450,Y_from_X,CCM,65,0.03842933183541411

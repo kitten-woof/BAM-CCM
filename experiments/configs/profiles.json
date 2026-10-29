@@ -1,0 +1,4 @@
+{
+  "pilot": {"systems": ["logistic", "henon", "independent", "common_driver", "coupled_ar", "nonlinear", "delayed", "regime_switch", "heavy_tailed"], "seeds": [42], "N": [600], "measurement_noise": [0.1], "coupling": [0.2], "E": 3, "tau": 1, "library_size": 65, "map_maxiter": 65, "centers": 2, "MCMC": false},
+  "full": {"systems": "all 15", "seeds": [13,42,71,101,131,161,191,221,251,281], "N": [450,650,900], "measurement_noise": [0.1,0.05,0.2], "coupling": [0,0.2,0.35], "E":3, "tau":1,"library_size":65,"map_maxiter":65,"centers":2,"MCMC":false}
+}

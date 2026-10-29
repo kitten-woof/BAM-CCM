@@ -1,0 +1,13 @@
+{
+  "process_error": "in dynamics; specified independent innovations",
+  "system": "independent",
+  "n_requested": 600,
+  "n_returned": 600,
+  "seed": 221,
+  "measurement_noise": 0.1,
+  "nominal_coupling": 0.2,
+  "truth": "none",
+  "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+  "purpose": "Negative control with independent AR processes",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

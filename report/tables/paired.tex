@@ -1,0 +1,30 @@
+\begin{longtable}{lllrll}
+\caption{Парные сравнения BAM-MAP на десяти независимых реализациях. ДИ: percentile bootstrap средних относительных изменений на уровне траектории, 4000 повторов.}\label{tab:paired}\\
+\toprule
+Система & Направление & База & Среднее, \% & 95\% ДИ, \% & Побед / 10 \\
+\midrule
+\endfirsthead
+\toprule
+Система & Направление & База & Среднее, \% & 95\% ДИ, \% & Побед / 10 \\
+\midrule
+\endhead
+common\_driver & X\_from\_Y & CCM & 6.647 & [4.580; 9.007] & 10 \\
+common\_driver & X\_from\_Y & GP-ARD & -1.550 & [-3.120; -0.214] & 3 \\
+common\_driver & X\_from\_Y & GP-Full & -0.689 & [-2.048; 0.315] & 3 \\
+common\_driver & Y\_from\_X & CCM & 5.870 & [2.762; 8.534] & 9 \\
+common\_driver & Y\_from\_X & GP-ARD & -2.594 & [-5.030; -0.726] & 2 \\
+common\_driver & Y\_from\_X & GP-Full & -0.283 & [-0.500; -0.079] & 2 \\
+independent & X\_from\_Y & CCM & 6.902 & [4.139; 9.742] & 9 \\
+independent & X\_from\_Y & GP-ARD & -0.624 & [-1.084; -0.226] & 0 \\
+independent & X\_from\_Y & GP-Full & -0.226 & [-0.569; -0.013] & 1 \\
+independent & Y\_from\_X & CCM & 11.746 & [9.209; 14.228] & 10 \\
+independent & Y\_from\_X & GP-ARD & -0.213 & [-0.757; 0.335] & 3 \\
+independent & Y\_from\_X & GP-Full & -0.077 & [-0.134; -0.035] & 2 \\
+logistic & X\_from\_Y & CCM & 10.839 & [1.177; 20.019] & 7 \\
+logistic & X\_from\_Y & GP-ARD & -3.574 & [-7.912; 0.432] & 4 \\
+logistic & X\_from\_Y & GP-Full & -0.421 & [-1.856; 1.140] & 5 \\
+logistic & Y\_from\_X & CCM & 5.764 & [1.934; 9.429] & 8 \\
+logistic & Y\_from\_X & GP-ARD & -0.168 & [-0.589; 0.128] & 5 \\
+logistic & Y\_from\_X & GP-Full & -0.064 & [-0.114; -0.016] & 3 \\
+\bottomrule
+\end{longtable}

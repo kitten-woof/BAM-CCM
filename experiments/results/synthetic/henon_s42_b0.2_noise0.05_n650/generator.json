@@ -1,0 +1,13 @@
+{
+  "process_error": "none",
+  "system": "henon",
+  "n_requested": 650,
+  "n_returned": 650,
+  "seed": 42,
+  "measurement_noise": 0.05,
+  "nominal_coupling": 0.2,
+  "truth": "x<->y",
+  "equations": "x+=1-1.4x^2+y; y+=0.3x",
+  "purpose": "Bidirectional state dependence of the H\u00e9non map",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

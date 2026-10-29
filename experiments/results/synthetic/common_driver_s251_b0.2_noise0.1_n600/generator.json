@@ -1,0 +1,13 @@
+{
+  "process_error": "in dynamics; specified independent innovations",
+  "system": "common_driver",
+  "n_requested": 600,
+  "n_returned": 600,
+  "seed": 251,
+  "measurement_noise": 0.1,
+  "nominal_coupling": 0.2,
+  "truth": "z->x,z->y",
+  "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+  "purpose": "Unobserved common driver: x,y not independent",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

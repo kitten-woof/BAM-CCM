@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+archive_independent,X_from_Y,CCM,19,-0.11449377807896167
+archive_independent,X_from_Y,CCM,32,-0.0787260327471316
+archive_independent,X_from_Y,CCM,45,-0.0201867196971638
+archive_independent,X_from_Y,CCM,65,0.06745004524513046
+archive_independent,Y_from_X,CCM,19,0.07025666217524652
+archive_independent,Y_from_X,CCM,32,0.11996750582652536
+archive_independent,Y_from_X,CCM,45,0.09868438579280661
+archive_independent,Y_from_X,CCM,65,0.0066004522521791315

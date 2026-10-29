@@ -1,0 +1,39 @@
+{
+  "case": "qqq_vix",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "file_origin": "QQQ+VIXCLS",
+    "variables": [
+      "QQQ abs(log return)",
+      "VIX daily change"
+    ],
+    "original_transformed_rows": 1254,
+    "rows_used": 900,
+    "tail_900": true,
+    "observational": "Causality labels unknown"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.009172811841139683,
+    -0.01403703703703704
+  ],
+  "std": [
+    0.009447703052284904,
+    1.922554338325303
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

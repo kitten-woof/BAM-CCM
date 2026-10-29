@@ -1,0 +1,41 @@
+{
+  "case": "regime_switch_s42_b0.35_noise0.2_n900",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "system": "regime_switch",
+    "n_requested": 900,
+    "n_returned": 900,
+    "seed": 42,
+    "measurement_noise": 0.2,
+    "nominal_coupling": 0.35,
+    "truth": "x->y then y->x",
+    "equations": "First half: x->y, second half: y->x, AR(1) with coefficient b",
+    "purpose": "Time-varying structural direction",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -0.029760594810973543,
+    -0.04720853208771527
+  ],
+  "std": [
+    0.5476406359640877,
+    0.5168247310220871
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

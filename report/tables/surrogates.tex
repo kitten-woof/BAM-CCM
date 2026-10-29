@@ -1,0 +1,20 @@
+\begin{longtable}{llrl}
+\caption{Диагностика 99 случайных циклических сдвигов; частота превышений не интерпретируется как калиброванный причинный $p$-value.}\label{tab:surrogates}\\
+\toprule
+Система & Направление & Наблюдаемое $\rho$ & Сдвигов с $\rho_{shift}\geq\rho_{obs}$ \\
+\midrule
+\endfirsthead
+\toprule
+Система & Направление & Наблюдаемое $\rho$ & Сдвигов с $\rho_{shift}\geq\rho_{obs}$ \\
+\midrule
+\endhead
+common\_driver & X\_from\_Y & 0.187 & 2/99 \\
+common\_driver & Y\_from\_X & 0.291 & 1/99 \\
+independent & X\_from\_Y & -0.153 & 92/99 \\
+independent & Y\_from\_X & 0.060 & 29/99 \\
+logistic & X\_from\_Y & 0.773 & 0/99 \\
+logistic & Y\_from\_X & 0.627 & 0/99 \\
+periodic & X\_from\_Y & 0.989 & 23/99 \\
+periodic & Y\_from\_X & 0.985 & 48/99 \\
+\bottomrule
+\end{longtable}

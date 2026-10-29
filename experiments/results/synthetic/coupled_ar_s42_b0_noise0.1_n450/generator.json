@@ -1,0 +1,13 @@
+{
+  "process_error": "in dynamics; specified independent innovations",
+  "system": "coupled_ar",
+  "n_requested": 450,
+  "n_returned": 450,
+  "seed": 42,
+  "measurement_noise": 0.1,
+  "nominal_coupling": 0.0,
+  "truth": "x->y",
+  "equations": "x+=0.65x+eps_x; y+=0.45y+b*x+eps_y",
+  "purpose": "Linear Gaussian AR(1), process errors",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

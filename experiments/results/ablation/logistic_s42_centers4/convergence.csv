@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+logistic_s42_centers4,X_from_Y,CCM,19,0.5455825779705146
+logistic_s42_centers4,X_from_Y,CCM,32,0.6907245127900001
+logistic_s42_centers4,X_from_Y,CCM,45,0.7268747986373156
+logistic_s42_centers4,X_from_Y,CCM,65,0.7729807429443075
+logistic_s42_centers4,Y_from_X,CCM,19,0.7447632343597836
+logistic_s42_centers4,Y_from_X,CCM,32,0.7094862172261912
+logistic_s42_centers4,Y_from_X,CCM,45,0.6617017602196851
+logistic_s42_centers4,Y_from_X,CCM,65,0.627286292656173

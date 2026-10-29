@@ -1,0 +1,42 @@
+{
+  "case": "logistic_s101_b0.2_noise0.1_n600",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 101
+  },
+  "data": {
+    "coupling_used": 0.2,
+    "process_error": "none",
+    "system": "logistic",
+    "n_requested": 600,
+    "n_returned": 600,
+    "seed": 101,
+    "measurement_noise": 0.1,
+    "nominal_coupling": 0.2,
+    "truth": "x->y",
+    "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+    "purpose": "Unidirectional coupled logistic maps",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 600,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.6496868665668356,
+    0.6741306722670234
+  ],
+  "std": [
+    0.2345925498241001,
+    0.1881399085910707
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

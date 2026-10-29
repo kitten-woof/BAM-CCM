@@ -1,0 +1,39 @@
+{
+  "case": "bike_hour",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "file_origin": "/mnt/data/BAM_CCM_RESEARCH/original/data/raw/bike_sharing/hour.csv",
+    "variables": [
+      "temp",
+      "cnt"
+    ],
+    "original_transformed_rows": 17379,
+    "rows_used": 900,
+    "tail_900": true,
+    "observational": "Causality labels unknown"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.3359259259259259,
+    209.6962962962963
+  ],
+  "std": [
+    0.08244231470411473,
+    176.57216651070058
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

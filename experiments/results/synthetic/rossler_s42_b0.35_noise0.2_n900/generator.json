@@ -1,0 +1,14 @@
+{
+  "dt": 0.08,
+  "process_error": "none",
+  "system": "rossler",
+  "n_requested": 900,
+  "n_returned": 900,
+  "seed": 42,
+  "measurement_noise": 0.2,
+  "nominal_coupling": 0.35,
+  "truth": "x<->y",
+  "equations": "dx=-y-z; dy=x+0.2y; dz=0.2+z(x-5.7)",
+  "purpose": "Coordinate coupling, not an independently actuated causal experiment",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

@@ -1,0 +1,41 @@
+{
+  "case": "henon_s42_b0.35_noise0.2_n900",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "none",
+    "system": "henon",
+    "n_requested": 900,
+    "n_returned": 900,
+    "seed": 42,
+    "measurement_noise": 0.2,
+    "nominal_coupling": 0.35,
+    "truth": "x<->y",
+    "equations": "x+=1-1.4x^2+y; y+=0.3x",
+    "purpose": "Bidirectional state dependence of the Hénon map",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.2800361532388825,
+    0.08484073497962036
+  ],
+  "std": [
+    0.7137101722445006,
+    0.2128852654299302
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

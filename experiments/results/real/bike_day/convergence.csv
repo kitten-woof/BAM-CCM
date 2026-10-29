@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+bike_day,X_from_Y,CCM,19,0.284550469159897
+bike_day,X_from_Y,CCM,32,0.47629065243253593
+bike_day,X_from_Y,CCM,45,0.4582893241026713
+bike_day,X_from_Y,CCM,65,0.4248400809507117
+bike_day,Y_from_X,CCM,19,0.6960069421976246
+bike_day,Y_from_X,CCM,32,0.6750152358801714
+bike_day,Y_from_X,CCM,45,0.6686454332362678
+bike_day,Y_from_X,CCM,65,0.6648771977743795

@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+archive_logistic,X_from_Y,CCM,19,0.19054975215294434
+archive_logistic,X_from_Y,CCM,32,0.2211714687503777
+archive_logistic,X_from_Y,CCM,45,0.2198581280781621
+archive_logistic,X_from_Y,CCM,65,0.25079512987092745
+archive_logistic,Y_from_X,CCM,19,0.2441336804804622
+archive_logistic,Y_from_X,CCM,32,0.20367049417960714
+archive_logistic,Y_from_X,CCM,45,0.16793111609938735
+archive_logistic,Y_from_X,CCM,65,0.14088266348106288

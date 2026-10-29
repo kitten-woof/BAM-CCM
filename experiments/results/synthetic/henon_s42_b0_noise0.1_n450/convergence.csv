@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+henon_s42_b0_noise0.1_n450,X_from_Y,CCM,19,0.8780706021793511
+henon_s42_b0_noise0.1_n450,X_from_Y,CCM,32,0.9573759445891198
+henon_s42_b0_noise0.1_n450,X_from_Y,CCM,45,0.9666082785659468
+henon_s42_b0_noise0.1_n450,X_from_Y,CCM,65,0.9651824558915627
+henon_s42_b0_noise0.1_n450,Y_from_X,CCM,19,0.9554871861913508
+henon_s42_b0_noise0.1_n450,Y_from_X,CCM,32,0.9869833163154561
+henon_s42_b0_noise0.1_n450,Y_from_X,CCM,45,0.9879552993483068
+henon_s42_b0_noise0.1_n450,Y_from_X,CCM,65,0.9891998056221447

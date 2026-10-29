@@ -1,0 +1,39 @@
+{
+  "case": "qqq_volume",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "file_origin": "HistoricalData_1793127119371_QQQ.csv",
+    "variables": [
+      "log volume",
+      "abs(log return)"
+    ],
+    "original_transformed_rows": 2511,
+    "rows_used": 900,
+    "tail_900": true,
+    "observational": "Causality labels unknown"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    17.51925745127635,
+    0.009172811841139683
+  ],
+  "std": [
+    0.3518990664170347,
+    0.009447703052284904
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+synchronized_s42_b0.2_noise0.05_n650,X_from_Y,CCM,19,0.9732533071238949
+synchronized_s42_b0.2_noise0.05_n650,X_from_Y,CCM,32,0.989600818592109
+synchronized_s42_b0.2_noise0.05_n650,X_from_Y,CCM,45,0.9943668625821344
+synchronized_s42_b0.2_noise0.05_n650,X_from_Y,CCM,65,0.9948734633713884
+synchronized_s42_b0.2_noise0.05_n650,Y_from_X,CCM,19,0.9761215129891403
+synchronized_s42_b0.2_noise0.05_n650,Y_from_X,CCM,32,0.9915797505723625
+synchronized_s42_b0.2_noise0.05_n650,Y_from_X,CCM,45,0.9959450432906035
+synchronized_s42_b0.2_noise0.05_n650,Y_from_X,CCM,65,0.996627791852875

@@ -1,0 +1,3 @@
+case,direction,mcmc_seconds,sampler,chains,warmup_each,proposals_each,thinning,posterior_draws,max_split_rhat,min_ess_approx,diagnostic_warning,diagnostic_note
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,X_from_Y,0.4667963989999748,block elliptical slice sampling,2,35,60,2,60,1.4674267068321116,11.444095038619253,True,Approximate only; require much longer and better-mixing chains for quantitative Bayesian claims
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,Y_from_X,0.33145788500002027,block elliptical slice sampling,2,35,60,2,60,1.154166268500494,13.772948239397437,True,Approximate only; require much longer and better-mixing chains for quantitative Bayesian claims

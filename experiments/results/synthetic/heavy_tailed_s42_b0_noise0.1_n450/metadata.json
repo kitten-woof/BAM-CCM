@@ -1,0 +1,41 @@
+{
+  "case": "heavy_tailed_s42_b0_noise0.1_n450",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "system": "heavy_tailed",
+    "n_requested": 450,
+    "n_returned": 450,
+    "seed": 42,
+    "measurement_noise": 0.1,
+    "nominal_coupling": 0.0,
+    "truth": "x->y",
+    "equations": "Coupled AR with Student-t(3) innovations normalized to var~1",
+    "purpose": "Outlier robustness",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 450,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.17652218534926015,
+    -0.051628366771972425
+  ],
+  "std": [
+    0.6174486359733262,
+    0.4536332797201215
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

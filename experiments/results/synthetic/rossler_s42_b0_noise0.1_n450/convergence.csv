@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+rossler_s42_b0_noise0.1_n450,X_from_Y,CCM,19,0.6414909283701958
+rossler_s42_b0_noise0.1_n450,X_from_Y,CCM,32,0.628126901661014
+rossler_s42_b0_noise0.1_n450,X_from_Y,CCM,45,0.6414905028308547
+rossler_s42_b0_noise0.1_n450,X_from_Y,CCM,65,0.6386984185392083
+rossler_s42_b0_noise0.1_n450,Y_from_X,CCM,19,0.3038457572417472
+rossler_s42_b0_noise0.1_n450,Y_from_X,CCM,32,0.43156884683674474
+rossler_s42_b0_noise0.1_n450,Y_from_X,CCM,45,0.44482321159729415
+rossler_s42_b0_noise0.1_n450,Y_from_X,CCM,65,0.4908103506334116

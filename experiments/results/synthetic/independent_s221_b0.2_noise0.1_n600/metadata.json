@@ -1,0 +1,41 @@
+{
+  "case": "independent_s221_b0.2_noise0.1_n600",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 221
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "system": "independent",
+    "n_requested": 600,
+    "n_returned": 600,
+    "seed": 221,
+    "measurement_noise": 0.1,
+    "nominal_coupling": 0.2,
+    "truth": "none",
+    "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+    "purpose": "Negative control with independent AR processes",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 600,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -0.06729646580084755,
+    0.03832344013582118
+  ],
+  "std": [
+    0.6539176766150415,
+    0.6618396278517084
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

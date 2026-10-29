@@ -1,0 +1,28 @@
+{
+  "systems": [
+    "logistic",
+    "common_driver",
+    "sharp_transition",
+    "varying_frequency"
+  ],
+  "seeds": [
+    401,
+    431,
+    461,
+    491,
+    521
+  ],
+  "sizes": [
+    40,
+    65,
+    120
+  ],
+  "K": 2,
+  "lambda_jac": 20.0,
+  "E": 3,
+  "tau": 1,
+  "maxiter": 65,
+  "n": 600,
+  "phase": "exploratory after confirmation; cannot form a fresh confirmatory claim",
+  "failures": []
+}

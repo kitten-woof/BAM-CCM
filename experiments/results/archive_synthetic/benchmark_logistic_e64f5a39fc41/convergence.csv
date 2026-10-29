@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+archive_benchmark_logistic_e64f5a39fc41,X_from_Y,CCM,19,0.21059218280182285
+archive_benchmark_logistic_e64f5a39fc41,X_from_Y,CCM,32,0.3473100118780594
+archive_benchmark_logistic_e64f5a39fc41,X_from_Y,CCM,45,0.354170416142535
+archive_benchmark_logistic_e64f5a39fc41,X_from_Y,CCM,65,0.49311376508511584
+archive_benchmark_logistic_e64f5a39fc41,Y_from_X,CCM,19,-0.04953662919620157
+archive_benchmark_logistic_e64f5a39fc41,Y_from_X,CCM,32,-0.03260523773575751
+archive_benchmark_logistic_e64f5a39fc41,Y_from_X,CCM,45,0.010550335835353374
+archive_benchmark_logistic_e64f5a39fc41,Y_from_X,CCM,65,0.09994766016615463

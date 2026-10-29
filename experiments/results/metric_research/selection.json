@@ -1,0 +1,24 @@
+{
+  "selection_rule": "Minimum mean pilot validation RMSE difference versus GP-ARD; confirm seeds excluded",
+  "selected_lambda": 20.0,
+  "candidates": [
+    {
+      "lambda": 0.0,
+      "mean_validation_rmse_diff_v_ard": 0.012833629648066947,
+      "validation_win_rate": 0.19444444444444445,
+      "pairs": 36
+    },
+    {
+      "lambda": 2.0,
+      "mean_validation_rmse_diff_v_ard": 0.012775188092800783,
+      "validation_win_rate": 0.19444444444444445,
+      "pairs": 36
+    },
+    {
+      "lambda": 20.0,
+      "mean_validation_rmse_diff_v_ard": 0.012207254693930802,
+      "validation_win_rate": 0.19444444444444445,
+      "pairs": 36
+    }
+  ]
+}

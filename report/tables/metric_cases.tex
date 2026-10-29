@@ -1,0 +1,24 @@
+\begin{longtable}{llrrrr}
+\caption{BAM-Jac-20 относительно GP-ARD: положительная $\Delta$ означает меньшую RMSE у BAM; парные интервалы по 10 seed отдельно для каждой системы и направления.}\label{tab:metric-by-case}\\
+\toprule
+Система & Реконструкция & GP-ARD & BAM-Jac-20 & $\Delta$ & 95\% ДИ \\
+\midrule
+\endfirsthead
+\toprule
+Система & Реконструкция & GP-ARD & BAM-Jac-20 & $\Delta$ & 95\% ДИ \\
+\midrule
+\endhead
+logistic & X\_from\_Y & 0.413 & 0.425 & -0.012 & [-0.032; +0.008] \\
+logistic & Y\_from\_X & 0.743 & 0.745 & -0.002 & [-0.006; +0.001] \\
+nonlinear & X\_from\_Y & 1.054 & 1.063 & -0.009 & [-0.020; +0.003] \\
+nonlinear & Y\_from\_X & 1.019 & 1.047 & -0.028 & [-0.065; +0.008] \\
+independent & X\_from\_Y & 1.073 & 1.076 & -0.002 & [-0.005; -0.000] \\
+independent & Y\_from\_X & 1.025 & 1.045 & -0.020 & [-0.054; +0.015] \\
+common\_driver & X\_from\_Y & 0.960 & 0.961 & -0.001 & [-0.030; +0.027] \\
+common\_driver & Y\_from\_X & 0.860 & 0.877 & -0.017 & [-0.037; +0.003] \\
+sharp\_transition & X\_from\_Y & 0.539 & 0.544 & -0.005 & [-0.010; +0.000] \\
+sharp\_transition & Y\_from\_X & 0.211 & 0.216 & -0.005 & [-0.015; +0.005] \\
+varying\_frequency & X\_from\_Y & 1.046 & 1.076 & -0.030 & [-0.059; -0.002] \\
+varying\_frequency & Y\_from\_X & 0.545 & 0.575 & -0.030 & [-0.049; -0.012] \\
+\bottomrule
+\end{longtable}

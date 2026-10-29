@@ -1,0 +1,14 @@
+{
+  "coupling_used": 0.45,
+  "process_error": "none",
+  "system": "synchronized",
+  "n_requested": 650,
+  "n_returned": 650,
+  "seed": 42,
+  "measurement_noise": 0.05,
+  "nominal_coupling": 0.2,
+  "truth": "x->y",
+  "equations": "Coupled logistic map with b=0.45; may approach synchronization",
+  "purpose": "Direction can become unidentifiable",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

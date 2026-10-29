@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+delayed_s42_b0.2_noise0.05_n650,X_from_Y,CCM,19,-0.09821106307010066
+delayed_s42_b0.2_noise0.05_n650,X_from_Y,CCM,32,-0.07728610263194914
+delayed_s42_b0.2_noise0.05_n650,X_from_Y,CCM,45,-0.13458896863516648
+delayed_s42_b0.2_noise0.05_n650,X_from_Y,CCM,65,-0.12163947119229612
+delayed_s42_b0.2_noise0.05_n650,Y_from_X,CCM,19,0.007261620983084755
+delayed_s42_b0.2_noise0.05_n650,Y_from_X,CCM,32,0.09405837503613684
+delayed_s42_b0.2_noise0.05_n650,Y_from_X,CCM,45,0.09839994463232364
+delayed_s42_b0.2_noise0.05_n650,Y_from_X,CCM,65,0.10091174504364045

@@ -1,0 +1,39 @@
+{
+  "case": "sp500_volume",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "file_origin": "HistoricalData_1793127127422_SP500.csv",
+    "variables": [
+      "log volume",
+      "abs(log return)"
+    ],
+    "original_transformed_rows": 2510,
+    "rows_used": 900,
+    "tail_900": true,
+    "observational": "Causality labels unknown"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    17.951723333091177,
+    0.006768265345651272
+  ],
+  "std": [
+    0.36653563456822635,
+    0.007622426233102194
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

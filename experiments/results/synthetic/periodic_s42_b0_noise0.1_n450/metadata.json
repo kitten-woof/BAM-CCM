@@ -1,0 +1,41 @@
+{
+  "case": "periodic_s42_b0_noise0.1_n450",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "independent measurement only",
+    "system": "periodic",
+    "n_requested": 450,
+    "n_returned": 450,
+    "seed": 42,
+    "measurement_noise": 0.1,
+    "nominal_coupling": 0.0,
+    "truth": "none",
+    "equations": "x=sin(2pi*t/30)+eps_x; y=sin(2pi*t/30+0.8)+eps_y, no causal edge",
+    "purpose": "Common periodic phase is not a causal link",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 450,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -0.0005180339328193383,
+    -0.0012151143682274093
+  ],
+  "std": [
+    0.7124688941214622,
+    0.7140933715041307
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "test": "logistic 600 obs, seed 131, noise .1, coupling .2, E3, train-only scaling, 65 library, MAP maxiter65",
+  "records": [
+    {
+      "direction": "X_from_Y",
+      "kind": "diag",
+      "negative_log_posterior_native": 39.04854131114048,
+      "negative_log_posterior_new": 39.04854131170305,
+      "objective_abs_diff": 5.625651056107017e-10,
+      "prediction_max_abs_diff": 2.074674887442285e-06,
+      "objective_match": true,
+      "prediction_match": true
+    },
+    {
+      "direction": "X_from_Y",
+      "kind": "full",
+      "negative_log_posterior_native": 38.44864786306167,
+      "negative_log_posterior_new": 38.4486478635767,
+      "objective_abs_diff": 5.15029796588351e-10,
+      "prediction_max_abs_diff": 1.0352811475877743e-06,
+      "objective_match": true,
+      "prediction_match": true
+    },
+    {
+      "direction": "X_from_Y",
+      "kind": "local",
+      "negative_log_posterior_native": 38.33045404348059,
+      "negative_log_posterior_new": 38.33045388110424,
+      "objective_abs_diff": 1.6237635236393544e-07,
+      "prediction_max_abs_diff": 0.00014249491567963624,
+      "objective_match": true,
+      "prediction_match": true
+    },
+    {
+      "direction": "Y_from_X",
+      "kind": "diag",
+      "negative_log_posterior_native": 79.06229255247212,
+      "negative_log_posterior_new": 79.06229255286456,
+      "objective_abs_diff": 3.9244696381501853e-10,
+      "prediction_max_abs_diff": 1.1198619953578515e-07,
+      "objective_match": true,
+      "prediction_match": true
+    },
+    {
+      "direction": "Y_from_X",
+      "kind": "full",
+      "negative_log_posterior_native": 78.98482521308597,
+      "negative_log_posterior_new": 78.98482521628738,
+      "objective_abs_diff": 3.201407139385992e-09,
+      "prediction_max_abs_diff": 9.274123435876191e-08,
+      "objective_match": true,
+      "prediction_match": true
+    },
+    {
+      "direction": "Y_from_X",
+      "kind": "local",
+      "negative_log_posterior_native": 78.97946936623096,
+      "negative_log_posterior_new": 78.97946936559372,
+      "objective_abs_diff": 6.372431471390883e-10,
+      "prediction_max_abs_diff": 2.3125282849756346e-07,
+      "objective_match": true,
+      "prediction_match": true
+    }
+  ]
+}

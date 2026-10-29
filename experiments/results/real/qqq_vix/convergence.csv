@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+qqq_vix,X_from_Y,CCM,19,0.10954539619164827
+qqq_vix,X_from_Y,CCM,32,0.09174305005252294
+qqq_vix,X_from_Y,CCM,45,0.10689349318319075
+qqq_vix,X_from_Y,CCM,65,0.07107567369919116
+qqq_vix,Y_from_X,CCM,19,-0.005730794291265312
+qqq_vix,Y_from_X,CCM,32,0.05456160796176784
+qqq_vix,Y_from_X,CCM,45,0.013004982319118993
+qqq_vix,Y_from_X,CCM,65,0.035924786631302746

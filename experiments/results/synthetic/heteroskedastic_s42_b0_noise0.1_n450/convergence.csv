@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+heteroskedastic_s42_b0_noise0.1_n450,X_from_Y,CCM,19,-0.05308642285146805
+heteroskedastic_s42_b0_noise0.1_n450,X_from_Y,CCM,32,-0.06588173217355651
+heteroskedastic_s42_b0_noise0.1_n450,X_from_Y,CCM,45,-0.1822706513573739
+heteroskedastic_s42_b0_noise0.1_n450,X_from_Y,CCM,65,-0.16173915425098945
+heteroskedastic_s42_b0_noise0.1_n450,Y_from_X,CCM,19,-0.044206410227989254
+heteroskedastic_s42_b0_noise0.1_n450,Y_from_X,CCM,32,0.04824517021293308
+heteroskedastic_s42_b0_noise0.1_n450,Y_from_X,CCM,45,0.026209891166644288
+heteroskedastic_s42_b0_noise0.1_n450,Y_from_X,CCM,65,0.0379843411975938

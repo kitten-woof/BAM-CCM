@@ -1,0 +1,24 @@
+\begin{longtable}{llrr}
+\caption{Отдельный эксперимент с библиотекой $L=50$ и предварительным MCMC (10 независимых реализаций Logistic); статистика BAM-Bayes не является надёжной оценкой стационарного апостериорного распределения.}\label{tab:bayes}\\
+\toprule
+Направление & Модель & RMSE средняя & SD по 10 seeds \\
+\midrule
+\endfirsthead
+\toprule
+Направление & Модель & RMSE средняя & SD по 10 seeds \\
+\midrule
+\endhead
+X\_from\_Y & BAM-Bayes & 0.482 & 0.084 \\
+X\_from\_Y & BAM-MAP & 0.492 & 0.093 \\
+X\_from\_Y & CCM & 0.567 & 0.060 \\
+X\_from\_Y & GP-ARD & 0.478 & 0.095 \\
+X\_from\_Y & GP-Full & 0.487 & 0.095 \\
+X\_from\_Y & Metric-CCM & 0.563 & 0.072 \\
+Y\_from\_X & BAM-Bayes & 0.757 & 0.098 \\
+Y\_from\_X & BAM-MAP & 0.756 & 0.079 \\
+Y\_from\_X & CCM & 0.800 & 0.079 \\
+Y\_from\_X & GP-ARD & 0.756 & 0.081 \\
+Y\_from\_X & GP-Full & 0.756 & 0.079 \\
+Y\_from\_X & Metric-CCM & 0.801 & 0.082 \\
+\bottomrule
+\end{longtable}

@@ -1,0 +1,13 @@
+{
+  "system": "independent",
+  "n": 1000,
+  "seed": 42,
+  "coupling": 0.05,
+  "noise": 0.1,
+  "burn": 500,
+  "dt": 0.01,
+  "stride": 10,
+  "noise_definition": "observed = clean + noise * clean_column_std * iid N(0,1)",
+  "ground_truth": "structural directed edges between subsystems; measurement noise added after simulation",
+  "edges": []
+}

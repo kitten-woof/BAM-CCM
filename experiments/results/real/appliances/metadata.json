@@ -1,0 +1,39 @@
+{
+  "case": "appliances",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "file_origin": "/mnt/data/BAM_CCM_RESEARCH/original/data/raw/appliances/energydata_complete.csv",
+    "variables": [
+      "T_out",
+      "Appliances"
+    ],
+    "original_transformed_rows": 19735,
+    "rows_used": 900,
+    "tail_900": true,
+    "observational": "Causality labels unknown"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    13.830000000000002,
+    103.81481481481481
+  ],
+  "std": [
+    3.7799586842082,
+    90.48778801872251
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "process_error": "in dynamics; specified independent innovations",
+  "system": "regime_switch",
+  "n_requested": 650,
+  "n_returned": 650,
+  "seed": 42,
+  "measurement_noise": 0.05,
+  "nominal_coupling": 0.2,
+  "truth": "x->y then y->x",
+  "equations": "First half: x->y, second half: y->x, AR(1) with coefficient b",
+  "purpose": "Time-varying structural direction",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

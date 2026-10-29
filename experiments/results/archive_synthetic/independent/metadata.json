@@ -1,0 +1,41 @@
+{
+  "case": "archive_independent",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false
+  },
+  "data": {
+    "system": "independent",
+    "n": 1000,
+    "seed": 42,
+    "coupling": 0.05,
+    "noise": 0.1,
+    "burn": 500,
+    "dt": 0.01,
+    "stride": 10,
+    "noise_definition": "observed = clean + noise * clean_column_std * iid N(0,1)",
+    "ground_truth": "structural directed edges between subsystems; measurement noise added after simulation",
+    "edges": [],
+    "source_file": "original/data/synthetic/independent_seed42.csv"
+  },
+  "n_total": 1000,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.6452048701743635,
+    0.6607413649779879
+  ],
+  "std": [
+    0.24280667441155412,
+    0.21077740545718035
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "process_error": "in dynamics; specified independent innovations",
+  "system": "heteroskedastic",
+  "n_requested": 900,
+  "n_returned": 900,
+  "seed": 42,
+  "measurement_noise": 0.2,
+  "nominal_coupling": 0.35,
+  "truth": "x->y",
+  "equations": "x+=0.7x+eps_x; y+=0.4y+b*x+sigma_t*eps_y; sigma_t=0.3+0.7|x|",
+  "purpose": "State-dependent process noise",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

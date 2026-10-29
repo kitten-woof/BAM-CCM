@@ -1,0 +1,21 @@
+# Python development environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+__MACOSX/
+# Generated outputs of interactive v0.6 CLI runs
+original/results/
+# LaTeX temporary files (if sources are added later)
+report/*.aux
+report/*.log
+report/*.bbl
+report/*.bcf
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/*.run.xml
+report/*.out
+report/*.toc
+report/*.synctex.gz

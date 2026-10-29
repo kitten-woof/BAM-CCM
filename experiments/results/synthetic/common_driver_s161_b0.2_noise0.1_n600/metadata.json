@@ -1,0 +1,41 @@
+{
+  "case": "common_driver_s161_b0.2_noise0.1_n600",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 161
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "system": "common_driver",
+    "n_requested": 600,
+    "n_returned": 600,
+    "seed": 161,
+    "measurement_noise": 0.1,
+    "nominal_coupling": 0.2,
+    "truth": "z->x,z->y",
+    "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+    "purpose": "Unobserved common driver: x,y not independent",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 600,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.0062727373205749915,
+    -0.09514898522525286
+  ],
+  "std": [
+    0.5765987994854997,
+    0.6343243241267641
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

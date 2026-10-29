@@ -1,0 +1,41 @@
+{
+  "case": "heteroskedastic_s42_b0.2_noise0.05_n650",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "system": "heteroskedastic",
+    "n_requested": 650,
+    "n_returned": 650,
+    "seed": 42,
+    "measurement_noise": 0.05,
+    "nominal_coupling": 0.2,
+    "truth": "x->y",
+    "equations": "x+=0.7x+eps_x; y+=0.4y+b*x+sigma_t*eps_y; sigma_t=0.3+0.7|x|",
+    "purpose": "State-dependent process noise",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 650,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -0.09883324510656581,
+    -0.054648313881296845
+  ],
+  "std": [
+    0.6473329306457499,
+    0.2986696335126114
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

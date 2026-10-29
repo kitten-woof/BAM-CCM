@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+qqq_volume,X_from_Y,CCM,19,0.3263114823885146
+qqq_volume,X_from_Y,CCM,32,0.28458577812974956
+qqq_volume,X_from_Y,CCM,45,0.23944231652957865
+qqq_volume,X_from_Y,CCM,65,0.29423088155584903
+qqq_volume,Y_from_X,CCM,19,0.21873646147273115
+qqq_volume,Y_from_X,CCM,32,0.2620107521951801
+qqq_volume,Y_from_X,CCM,45,0.2749516638201755
+qqq_volume,Y_from_X,CCM,65,0.21488518799907286

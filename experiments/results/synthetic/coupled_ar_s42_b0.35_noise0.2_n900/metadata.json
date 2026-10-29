@@ -1,0 +1,41 @@
+{
+  "case": "coupled_ar_s42_b0.35_noise0.2_n900",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "system": "coupled_ar",
+    "n_requested": 900,
+    "n_returned": 900,
+    "seed": 42,
+    "measurement_noise": 0.2,
+    "nominal_coupling": 0.35,
+    "truth": "x->y",
+    "equations": "x+=0.65x+eps_x; y+=0.45y+b*x+eps_y",
+    "purpose": "Linear Gaussian AR(1), process errors",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -0.022121413385693744,
+    -0.04373078762173421
+  ],
+  "std": [
+    0.6413133427096674,
+    0.6543073267507676
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

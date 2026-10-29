@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,X_from_Y,CCM,15,0.6237181168550745
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,X_from_Y,CCM,25,0.6485200029225866
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,X_from_Y,CCM,35,0.7548589608669429
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,X_from_Y,CCM,50,0.8088364276790778
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,Y_from_X,CCM,15,0.5225112209981408
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,Y_from_X,CCM,25,0.5014440830392921
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,Y_from_X,CCM,35,0.5058220310167357
+logistic_s191_b0.2_noise0.1_n600_L50_iter65_bayes,Y_from_X,CCM,50,0.45136683472484157

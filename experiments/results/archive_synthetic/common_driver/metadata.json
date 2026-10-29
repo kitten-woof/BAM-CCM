@@ -1,0 +1,50 @@
+{
+  "case": "archive_common_driver",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false
+  },
+  "data": {
+    "system": "common_driver",
+    "n": 1000,
+    "seed": 42,
+    "coupling": 0.05,
+    "noise": 0.1,
+    "burn": 500,
+    "dt": 0.01,
+    "stride": 10,
+    "noise_definition": "observed = clean + noise * clean_column_std * iid N(0,1)",
+    "ground_truth": "structural directed edges between subsystems; measurement noise added after simulation",
+    "edges": [
+      [
+        "z",
+        "x"
+      ],
+      [
+        "z",
+        "y"
+      ]
+    ],
+    "source_file": "original/data/synthetic/common_driver_seed42.csv"
+  },
+  "n_total": 1000,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.6598781335459006,
+    0.655420295838495
+  ],
+  "std": [
+    0.2149388567442077,
+    0.21737543874065188
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

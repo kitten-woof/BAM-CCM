@@ -1,0 +1,1092 @@
+{
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library": 65,
+    "maxiter": 65,
+    "n": 600,
+    "noise_standard": 0.1,
+    "coupling": 0.2,
+    "centers": 2,
+    "lambdas": [
+      20.0
+    ]
+  },
+  "data": [
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 101,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 101,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 131,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 131,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 161,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 161,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 191,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 191,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 221,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 221,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 251,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 251,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 281,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 281,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 311,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 311,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 331,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 331,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "logistic",
+      "seed": 351,
+      "lam_jac": 20.0,
+      "metadata": {
+        "coupling_used": 0.2,
+        "process_error": "none",
+        "system": "logistic",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 351,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+        "purpose": "Unidirectional coupled logistic maps",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 101,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 101,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 131,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 131,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 161,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 161,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 191,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 191,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 221,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 221,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 251,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 251,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 281,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 281,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 311,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 311,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 331,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 331,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "nonlinear",
+      "seed": 351,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "nonlinear",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 351,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "x->y",
+        "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+        "purpose": "Nonlinear asymmetric transfer",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 101,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 101,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 131,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 131,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 161,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 161,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 191,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 191,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 221,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 221,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 251,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 251,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 281,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 281,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 311,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 311,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 331,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 331,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "common_driver",
+      "seed": 351,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "common_driver",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 351,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "z->x,z->y",
+        "equations": "z+=0.7z+eps_z; x+=0.45x+0.5z+eps_x; y+=0.5y+0.6z+eps_y",
+        "purpose": "Unobserved common driver: x,y not independent",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 101,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 101,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 131,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 131,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 161,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 161,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 191,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 191,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 221,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 221,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 251,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 251,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 281,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 281,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 311,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 311,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 331,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 331,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "independent",
+      "seed": 351,
+      "lam_jac": 20.0,
+      "metadata": {
+        "process_error": "in dynamics; specified independent innovations",
+        "system": "independent",
+        "n_requested": 600,
+        "n_returned": 600,
+        "seed": 351,
+        "measurement_noise": 0.1,
+        "nominal_coupling": 0.2,
+        "truth": "none",
+        "equations": "x+=0.7x+eps_x; y+=0.6y+eps_y, independent eps",
+        "purpose": "Negative control with independent AR processes",
+        "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 101,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 101
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 131,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 131
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 161,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 161
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 191,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 191
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 221,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 221
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 251,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 251
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 281,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 281
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 311,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 311
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 331,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 331
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "sharp_transition",
+      "seed": 351,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "tanh(7x)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 351
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 101,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 101
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 131,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 131
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 161,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 161
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 191,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 191
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 221,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 221
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 251,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 251
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 281,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 281
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 311,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 311
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 331,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 331
+      }
+    },
+    {
+      "phase": "confirm",
+      "system": "varying_frequency",
+      "seed": 351,
+      "lam_jac": 20.0,
+      "metadata": {
+        "truth": "x->y",
+        "model": "x_t=.78 x_{t-1}+.42 eps_x; y_t=.18 y_{t-1}+.85 f(x_t)+.11 eps_y; measurement noise=.05 column SD",
+        "f": "sin(4x^2)/(1+.15|x|)",
+        "burnin": 450,
+        "n": 600,
+        "seed": 351
+      }
+    }
+  ],
+  "seed_split": {
+    "pilot": [
+      13,
+      42,
+      71
+    ],
+    "confirm": [
+      101,
+      131,
+      161,
+      191,
+      221,
+      251,
+      281,
+      311,
+      331,
+      351
+    ]
+  },
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  },
+  "method": "60/20/20 chronological split; normalization fit on training only; training-only GP MAP; no test model selection",
+  "failures": 0
+}

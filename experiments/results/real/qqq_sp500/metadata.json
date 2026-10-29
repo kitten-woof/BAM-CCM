@@ -1,0 +1,39 @@
+{
+  "case": "qqq_sp500",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "file_origin": "QQQ+SP500",
+    "variables": [
+      "QQQ log return",
+      "SP500 file log return"
+    ],
+    "original_transformed_rows": 2511,
+    "rows_used": 900,
+    "tail_900": true,
+    "observational": "Causality labels unknown"
+  },
+  "n_total": 900,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    0.0009535347328274361,
+    0.0007484420687832559
+  ],
+  "std": [
+    0.01313355784052431,
+    0.010163287609889757
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

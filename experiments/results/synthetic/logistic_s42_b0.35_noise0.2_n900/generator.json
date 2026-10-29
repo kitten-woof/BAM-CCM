@@ -1,0 +1,14 @@
+{
+  "coupling_used": 0.35,
+  "process_error": "none",
+  "system": "logistic",
+  "n_requested": 900,
+  "n_returned": 900,
+  "seed": 42,
+  "measurement_noise": 0.2,
+  "nominal_coupling": 0.35,
+  "truth": "x->y",
+  "equations": "x+=3.78x(1-x); y+=(1-b)3.67y(1-y)+b*3.78x(1-x)",
+  "purpose": "Unidirectional coupled logistic maps",
+  "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+}

@@ -1,0 +1,13 @@
+{
+  "datasets": [
+    "appliances",
+    "bike_day",
+    "bike_hour",
+    "qqq_volume",
+    "sp500_volume",
+    "qqq_sp500",
+    "qqq_vix"
+  ],
+  "lambda_jac": 20.0,
+  "notes": "Last 600 complete observations (or shorter) from each original data source; 60/20/20 chronological split; single time window; descriptive only"
+}

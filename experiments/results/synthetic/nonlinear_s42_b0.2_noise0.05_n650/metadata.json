@@ -1,0 +1,41 @@
+{
+  "case": "nonlinear_s42_b0.2_noise0.05_n650",
+  "params": {
+    "E": 3,
+    "tau": 1,
+    "library_size": 65,
+    "map_maxiter": 65,
+    "centers": 2,
+    "bayes": false,
+    "seed": 42
+  },
+  "data": {
+    "process_error": "in dynamics; specified independent innovations",
+    "system": "nonlinear",
+    "n_requested": 650,
+    "n_returned": 650,
+    "seed": 42,
+    "measurement_noise": 0.05,
+    "nominal_coupling": 0.2,
+    "truth": "x->y",
+    "equations": "x+=0.6x+eps_x; y+=0.35y+b*tanh(2x)+eps_y",
+    "purpose": "Nonlinear asymmetric transfer",
+    "measurement_noise_definition": "Independent Gaussian error scaled by clean-column SD"
+  },
+  "n_total": 650,
+  "split": "chronological 60/20/20",
+  "scaling": "training mean and std only",
+  "mean": [
+    -0.07326729867537485,
+    -0.06797691625106995
+  ],
+  "std": [
+    0.582015677844954,
+    0.5660310691758927
+  ],
+  "interpretation": "Contemporaneous reconstruction, not causal identification; cannot use RMSE as causal evidence",
+  "software": {
+    "python": "3.13.5",
+    "numpy": "2.3.5"
+  }
+}

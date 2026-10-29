@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+sp500_volume,X_from_Y,CCM,19,0.47624453089852964
+sp500_volume,X_from_Y,CCM,32,0.46035910731043533
+sp500_volume,X_from_Y,CCM,45,0.3386523922560873
+sp500_volume,X_from_Y,CCM,65,0.20507744521388085
+sp500_volume,Y_from_X,CCM,19,0.3836320309286633
+sp500_volume,Y_from_X,CCM,32,0.4189730047818409
+sp500_volume,Y_from_X,CCM,45,0.23458684710029723
+sp500_volume,Y_from_X,CCM,65,0.2687516425473058

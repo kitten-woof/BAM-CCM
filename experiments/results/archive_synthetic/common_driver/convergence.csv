@@ -1,0 +1,9 @@
+case,direction,model,library_size,rho_test
+archive_common_driver,X_from_Y,CCM,19,-0.052666597600176404
+archive_common_driver,X_from_Y,CCM,32,0.09745770585218527
+archive_common_driver,X_from_Y,CCM,45,0.10706490488182303
+archive_common_driver,X_from_Y,CCM,65,0.06428176126454986
+archive_common_driver,Y_from_X,CCM,19,-0.11515826389713651
+archive_common_driver,Y_from_X,CCM,32,-0.08301238084176613
+archive_common_driver,Y_from_X,CCM,45,-0.11070357310801579
+archive_common_driver,Y_from_X,CCM,65,-0.09533061969105326
